@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target dummy_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dummy_node.dir/src/dummy_code.cpp.o[0m
+[01m[K/home/yunus/dummy_ws/dummy_repo/src/dummy_pkg/src/dummy_code.cpp:3:6:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kint[m[K’
+ std::[01;31m[Kint[m[K main(int argc, char** argv){
+      [01;31m[K^~~[m[K
+CMakeFiles/dummy_node.dir/build.make:62: recipe for target 'CMakeFiles/dummy_node.dir/src/dummy_code.cpp.o' failed
+make[2]: *** [CMakeFiles/dummy_node.dir/src/dummy_code.cpp.o] Error 1
+CMakeFiles/Makefile2:291: recipe for target 'CMakeFiles/dummy_node.dir/all' failed
+make[1]: *** [CMakeFiles/dummy_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

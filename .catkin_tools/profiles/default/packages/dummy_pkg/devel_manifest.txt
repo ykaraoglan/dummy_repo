@@ -3,3 +3,4 @@ dummy_pkg
 /home/yunus/dummy_ws/dummy_repo/devel/.private/dummy_pkg/share/dummy_pkg/cmake/dummy_pkgConfig.cmake /home/yunus/dummy_ws/dummy_repo/devel/share/dummy_pkg/cmake/dummy_pkgConfig.cmake
 /home/yunus/dummy_ws/dummy_repo/devel/.private/dummy_pkg/share/dummy_pkg/cmake/dummy_pkgConfig-version.cmake /home/yunus/dummy_ws/dummy_repo/devel/share/dummy_pkg/cmake/dummy_pkgConfig-version.cmake
 /home/yunus/dummy_ws/dummy_repo/devel/.private/dummy_pkg/lib/pkgconfig/dummy_pkg.pc /home/yunus/dummy_ws/dummy_repo/devel/lib/pkgconfig/dummy_pkg.pc
+/home/yunus/dummy_ws/dummy_repo/devel/.private/dummy_pkg/lib/dummy_pkg/dummy_node /home/yunus/dummy_ws/dummy_repo/devel/lib/dummy_pkg/dummy_node

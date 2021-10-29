@@ -9,6 +9,7 @@
 /home/yunus/dummy_ws/dummy_repo/build/dummy_pkg/CMakeFiles/std_msgs_generate_messages_cpp.dir
 /home/yunus/dummy_ws/dummy_repo/build/dummy_pkg/CMakeFiles/run_tests.dir
 /home/yunus/dummy_ws/dummy_repo/build/dummy_pkg/CMakeFiles/download_extra_data.dir
+/home/yunus/dummy_ws/dummy_repo/build/dummy_pkg/CMakeFiles/dummy_node.dir
 /home/yunus/dummy_ws/dummy_repo/build/dummy_pkg/CMakeFiles/roscpp_generate_messages_cpp.dir
 /home/yunus/dummy_ws/dummy_repo/build/dummy_pkg/CMakeFiles/tests.dir
 /home/yunus/dummy_ws/dummy_repo/build/dummy_pkg/CMakeFiles/edit_cache.dir

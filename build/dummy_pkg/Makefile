@@ -259,6 +259,19 @@ download_extra_data/fast:
 .PHONY : download_extra_data/fast
 
 #=============================================================================
+# Target rules for targets named dummy_node
+
+# Build rule for target.
+dummy_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dummy_node
+.PHONY : dummy_node
+
+# fast build rule for target.
+dummy_node/fast:
+	$(MAKE) -f CMakeFiles/dummy_node.dir/build.make CMakeFiles/dummy_node.dir/build
+.PHONY : dummy_node/fast
+
+#=============================================================================
 # Target rules for targets named roscpp_generate_messages_cpp
 
 # Build rule for target.
@@ -479,6 +492,33 @@ gtest/fast:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+src/dummy_code.o: src/dummy_code.cpp.o
+
+.PHONY : src/dummy_code.o
+
+# target to build an object file
+src/dummy_code.cpp.o:
+	$(MAKE) -f CMakeFiles/dummy_node.dir/build.make CMakeFiles/dummy_node.dir/src/dummy_code.cpp.o
+.PHONY : src/dummy_code.cpp.o
+
+src/dummy_code.i: src/dummy_code.cpp.i
+
+.PHONY : src/dummy_code.i
+
+# target to preprocess a source file
+src/dummy_code.cpp.i:
+	$(MAKE) -f CMakeFiles/dummy_node.dir/build.make CMakeFiles/dummy_node.dir/src/dummy_code.cpp.i
+.PHONY : src/dummy_code.cpp.i
+
+src/dummy_code.s: src/dummy_code.cpp.s
+
+.PHONY : src/dummy_code.s
+
+# target to generate assembly for a file
+src/dummy_code.cpp.s:
+	$(MAKE) -f CMakeFiles/dummy_node.dir/build.make CMakeFiles/dummy_node.dir/src/dummy_code.cpp.s
+.PHONY : src/dummy_code.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -496,6 +536,7 @@ help:
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... run_tests"
 	@echo "... download_extra_data"
+	@echo "... dummy_node"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... tests"
 	@echo "... edit_cache"
@@ -516,6 +557,9 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... src/dummy_code.o"
+	@echo "... src/dummy_code.i"
+	@echo "... src/dummy_code.s"
 .PHONY : help
 
 

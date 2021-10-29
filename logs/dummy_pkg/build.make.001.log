@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target dummy_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/dummy_node.dir/src/dummy_code.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/yunus/dummy_ws/dummy_repo/devel/.private/dummy_pkg/lib/dummy_pkg/dummy_node[0m
+/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+CMakeFiles/dummy_node.dir/build.make:112: recipe for target '/home/yunus/dummy_ws/dummy_repo/devel/.private/dummy_pkg/lib/dummy_pkg/dummy_node' failed
+make[2]: *** [/home/yunus/dummy_ws/dummy_repo/devel/.private/dummy_pkg/lib/dummy_pkg/dummy_node] Error 1
+CMakeFiles/Makefile2:291: recipe for target 'CMakeFiles/dummy_node.dir/all' failed
+make[1]: *** [CMakeFiles/dummy_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
