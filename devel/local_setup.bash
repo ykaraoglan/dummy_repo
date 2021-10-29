@@ -1,0 +1,1 @@
+/home/yunus/dummy_ws/dummy_repo/devel/.private/catkin_tools_prebuild/local_setup.bash

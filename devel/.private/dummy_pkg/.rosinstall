@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yunus/dummy_ws/dummy_repo/devel/.private/dummy_pkg/setup.sh

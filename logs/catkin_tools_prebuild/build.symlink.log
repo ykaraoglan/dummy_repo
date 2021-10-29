@@ -1,0 +1,12 @@
+Symlinking /home/yunus/dummy_ws/dummy_repo/devel/./env.sh
+Symlinking /home/yunus/dummy_ws/dummy_repo/devel/./local_setup.zsh
+Symlinking /home/yunus/dummy_ws/dummy_repo/devel/./cmake.lock
+Symlinking /home/yunus/dummy_ws/dummy_repo/devel/./setup.sh
+Symlinking /home/yunus/dummy_ws/dummy_repo/devel/./setup.bash
+Symlinking /home/yunus/dummy_ws/dummy_repo/devel/./local_setup.bash
+Symlinking /home/yunus/dummy_ws/dummy_repo/devel/./local_setup.sh
+Symlinking /home/yunus/dummy_ws/dummy_repo/devel/./_setup_util.py
+Symlinking /home/yunus/dummy_ws/dummy_repo/devel/./setup.zsh
+Symlinking /home/yunus/dummy_ws/dummy_repo/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/yunus/dummy_ws/dummy_repo/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/yunus/dummy_ws/dummy_repo/devel/lib/pkgconfig/catkin_tools_prebuild.pc

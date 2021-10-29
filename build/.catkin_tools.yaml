@@ -1,0 +1,6 @@
+devel_space: /home/yunus/dummy_ws/dummy_repo/devel
+install: false
+install_space: /home/yunus/dummy_ws/dummy_repo/install
+profile: default
+source_space: /home/yunus/dummy_ws/dummy_repo/src
+workspace: /home/yunus/dummy_ws/dummy_repo
